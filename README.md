@@ -29,7 +29,7 @@ const c=document.getElementById("c");
 const ctx=c.getContext("2d");
 let w,h;
 function resize(){w=c.width=innerWidth;h=c.height=innerHeight}
-esize();addEventListener("resize",resize);
+resize();addEventListener("resize",resize);
 
 // Astronomical scale
 const AU=110;
